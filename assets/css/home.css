@@ -1,0 +1,49 @@
+body{
+    /* text-align: center; */
+    margin : 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align:center;
+    height: 80px;
+    margin-top: 0px;
+    color: white;
+    background-color: cadetblue;   
+}
+
+.songs {
+    padding: 3px 10px;
+    border : 1px solid white;
+    margin-left: 58px;
+    background-color:coral;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color:white;
+    display: flex;
+    width: 85%;
+    height: 10%;   
+}
+.songs .details{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    justify-content: space-between;width: 90%;
+}
+.songs .delete-button{
+    width: 10%;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.songs .delete-button a{
+   
+    color: aliceblue;
+    background-color: rgb(175, 9, 9);
+}
+
+
+.songs .p{
+    margin: 5px 0;
+}
+#new-music-form{
+    margin-left: 350px;
+}
